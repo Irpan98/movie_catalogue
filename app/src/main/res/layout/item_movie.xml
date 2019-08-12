@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tool="http://schemas.android.com/tools"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:padding="4dp"
+                android:id="@+id/imgMovie"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+                android:id="@+id/txtName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/imgMovie"
+                tool:text="Avengers"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imgMovie" android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/progressBar"/>
+        <TextView
+                android:id="@+id/txtDateDetail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtName"
+                tool:text="20 Maret 1998"
+                android:layout_alignStart="@+id/txtName"
+                app:layout_constraintStart_toStartOf="@+id/txtName" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtName" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/progressBar"/>
+        <TextView
+                android:paddingEnd="16dp"
+                android:paddingStart="0dp"
+                android:id="@+id/txtDescMovie"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                tool:text="@tools:sample/lorem/random"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtDateDetail"
+                app:layout_constraintStart_toStartOf="@+id/txtDateDetail"/>
+
+        <ProgressBar
+                app:layout_constraintTop_toTopOf="parent"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/txtDescMovie"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="70"
+                android:progressDrawable="@drawable/custom_progressbar"
+                android:secondaryProgress="100"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+        />
+
+        <TextView
+                android:id="@+id/txtProgress"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tool:text="20"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                app:layout_constraintEnd_toEndOf="@+id/progressBar"
+                app:layout_constraintStart_toStartOf="@+id/progressBar"
+                app:layout_constraintTop_toTopOf="@+id/progressBar"
+                app:layout_constraintBottom_toBottomOf="@+id/progressBar"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

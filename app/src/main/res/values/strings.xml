@@ -1,0 +1,14 @@
+<resources>
+    <string name="appName">Movie Catalogue</string>
+    <string name="image">image Poster</string>
+    <string name="synopsisLabel">Synopsis</string>
+    <string name="dateReleaseLabel">Date Release</string>
+    <string name="detailMovie">Detail Movie</string>
+    <string name="detailTvShow">detail TV Show</string>
+    <string name="movies">Movies</string>
+    <string name="tvShow">Tv Show</string>
+    <string name="settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="noInternetText">You are offline</string>
+
+</resources>

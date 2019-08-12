@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dateReleaseLabel">Tanggal Rilis</string>
+    <string name="appName">Katalog Film</string>
+    <string name="synopsisLabel">Sinopsis</string>
+    <string name="image">gambar</string>
+    <string name="detailTvShow">detail Serial TV</string>
+    <string name="detailMovie">detail Movie</string>
+    <string name="tvShow">Serial TV</string>
+    <string name="settings">Pengaturan</string>
+    <string name="movies">Film</string>
+    <string name="title">Judul</string>
+    <string name="noInternetText">anda sekarang offline</string>
+</resources>
