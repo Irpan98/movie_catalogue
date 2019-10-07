@@ -8,9 +8,11 @@
             android:id="@+id/navigationTvShows"
             android:icon="@drawable/room"
             android:title="@string/tvShow"/>
+
     <item
-            android:id="@+id/navigationSettings"
-            android:icon="@drawable/setting"
-            android:title="@string/settings"/>
+            android:id="@+id/navigationFavorite"
+            android:icon="@drawable/ic_favorite_border"
+            android:title="@string/favorite"/>
+
 
 </menu>

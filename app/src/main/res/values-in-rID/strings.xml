@@ -4,11 +4,16 @@
     <string name="appName">Katalog Film</string>
     <string name="synopsisLabel">Sinopsis</string>
     <string name="image">gambar</string>
-    <string name="detailTvShow">detail Serial TV</string>
-    <string name="detailMovie">detail Movie</string>
+    <string name="detailMovie">detail Film</string>
     <string name="tvShow">Serial TV</string>
     <string name="settings">Pengaturan</string>
     <string name="movies">Film</string>
     <string name="title">Judul</string>
     <string name="noInternetText">anda sekarang offline</string>
+    <string name="favorite">Favorit</string>
+    <string name="movieFavorite">Film Favorit</string>
+    <string name="tvFavorite">Serial Tv Favorit</string>
+    <string name="gagal">gagal menambahkan ke Favorit</string>
+    <string name="berhasil">Berhasil Menambahkan ke Favorit</string>
+    <string name="berhasil_remove">Berhasil dihapus dari Favorit</string>
 </resources>

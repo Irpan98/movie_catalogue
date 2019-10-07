@@ -4,11 +4,23 @@
     <string name="synopsisLabel">Synopsis</string>
     <string name="dateReleaseLabel">Date Release</string>
     <string name="detailMovie">Detail Movie</string>
-    <string name="detailTvShow">detail TV Show</string>
     <string name="movies">Movies</string>
     <string name="tvShow">Tv Show</string>
-    <string name="settings">Settings</string>
     <string name="title">Title</string>
     <string name="noInternetText">You are offline</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="favorite">Favorite</string>
+    <string name="movieFavorite">Movie Favorite</string>
+    <string name="tvFavorite">Tv Favorite</string>
+    <string name="berhasil">success added</string>
+    <string name="gagal">failed add favorite</string>
+    <string name="berhasil_remove">Success to Remove</string>
+    <string name="search">Search</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="no_fav">Tidak ada Favorite</string>
+    <string name="settings">Settings</string>
+    <string name="languange">Languange</string>
+    <string name="add_widget">Add widget</string>
 
 </resources>
